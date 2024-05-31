@@ -1,9 +1,10 @@
 ## About
-This repository contains a Python implementation of a parameterized model developed by Righi and Ferrario in their 2007 paper. The model describes the interaction potential between rare gases and a copper surface. 
+Welcome to the repository for the implementation of a parameterized model developed by Righi and Ferrario. This model is designed to simulate the interaction potential between rare gases and a copper surface. The program has been rigorously tested and extended to include the construction of the Potential Energy Surface (PES) and the integration of the equation of motion using the Velocity Verlet algorithm. 
 
 ## Features
 - Construction of the Potential Energy Surface (PES)
 - Extension of the model using the Potential Function and Forces to integrate the equation of motion
+- **Velocity Verlet Algorithm**: The integration of the equation of motion is performed using the Velocity Verlet algorithm, ensuring accurate trajectory simulations.
 - Generation of trajectories from a common origin
 - Calculation of the diffusion coefficient
 
